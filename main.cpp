@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     auto cw = new CentralWidget(&w);
     w.setCentralWidget(cw);
 
-    w.setMinimumSize(500, 400);
+    w.setMinimumSize(550, 400);
 
     w.showMaximized();
 
